@@ -1,0 +1,58 @@
+nav{
+    max-width: 100%;
+    background-color: #848484;
+    font-size: 20px;
+    display: flex;
+    height: 70px;
+    margin-top: 20px;
+    box-shadow: -10px 10px 5px black;
+    border-radius: 10px 10px 10px;
+    text-align: center;
+}
+.logoheader{
+    margin-left: 150px;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.menu > li > a{
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+.menu > li > a:hover{
+    background-color: red;
+    margin-left: -20px;
+}
+.menuHorin{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 120px;
+    background-color: black;
+}
+.menu li:hover .menuHorin{
+    display: block;
+}
+.menuHorin > li:hover{
+    background-color: red;
+    margin-left: -25px;
+}
+.menu > li > a{
+    display: block;
+    color: white;
+    padding: 15px 15px 15px 20px;
+}
+
+.menu > li > ul > li > a{
+    text-decoration: none;
+    color: white;
+}
+.menu > li > ul > li{
+    margin: 7px;
+}
+
