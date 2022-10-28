@@ -2,9 +2,7 @@ import React from "react";
 import './stylesBody.css'
 
 const Body = () => {
-<<<<<<< Updated upstream
-    
-=======
+
     return(
         <section className="principal"> 
             <div className="slider">
@@ -42,7 +40,6 @@ const Body = () => {
             </section>
         </section>
     )
->>>>>>> Stashed changes
 }
 
 export default Body;
