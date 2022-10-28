@@ -4,7 +4,7 @@ import './StylesHeader.css';
 const Header = () => {
     return(
         <header>
-            <nav class="">
+            <nav class="container">
                 <img className = "logoheader" src='./IMG/logo.jpg'/>
                 <ul class="menu">
                     <li><a href="#">Inicio</a></li>
@@ -39,6 +39,7 @@ const Header = () => {
                     </li>
                 </ul>
             </nav>
+            <div className='espacioMenu'></div>
         </header>
     )
 }

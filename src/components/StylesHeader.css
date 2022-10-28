@@ -1,11 +1,10 @@
-nav{
+.container{
     max-width: 100%;
     background-color: #848484;
     font-size: 20px;
     display: flex;
     height: 70px;
     box-shadow: -10px 10px 5px black;
-    border-radius: 10px 10px 10px;
     text-align: center;
 }
 .logoheader{
@@ -53,5 +52,10 @@ nav{
 }
 .menu > li > ul > li{
     margin: 7px;
+}
+.espacioMenu{
+    width: auto;
+    height: 15px;
+    background-color: black;
 }
 
