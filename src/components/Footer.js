@@ -7,10 +7,10 @@ const Footer = () => {
             <div class = "contenedor">
                 <h2 class = "titulo-seccion">Contacta Conmigo</h2>
             </div>
-            <div class = "redes-sociales">
-                <img className = "logofacebook" src='./IMG/facebook.jpg'/>
-                <img className = "logoinstagram" src='./IMG/instagram.jpg'/>
-                <img className = "logowhatsapp" src='./IMG/wpp.jpg'/>
+            <div class = "redes-sociales" id='redes-sociales'>
+                <a href='https://es-la.facebook.com/'><img class = "logofacebook" src='./IMG/facebook.jpg'/></a>
+                <a href='https://www.instagram.com/'><img class = "logoinstagram" src='./IMG/instagram.jpg'/></a>
+                <a href='https://web.whatsapp.com/'><img class = "logowhatsapp" src='./IMG/wpp.jpg'/></a>
             </div>
             <div class = "contenedor">
                 <p class = "copy">TODOS LOS DERECHOS ESTAN RESERVADOS...</p>

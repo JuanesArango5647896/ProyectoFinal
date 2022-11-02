@@ -15,25 +15,28 @@ const Body = () => {
                 </ul>
             </div>
             <section className="sedes">
-                <nav className="medellin">
+                <nav className="medellin" id="medellin">
                     <div>
                         <h1>Sede Medellin</h1>
                         <p>Disfruta de nuestra sede principal ubicada de la ciudad de Medellin</p>
                     </div>
                     <img src="./IMG/tiendaLicores.jpg"></img>
                 </nav>
-                <nav className="bello">
+                <i className="disfruta">Disfruta</i>
+                <br></br>
+                <i className="conNosotros">Con Nosotros</i>
+                <nav className="bello" id="bello">
                     <div>
                         <h1>Sede Bello</h1>
                         <p>Disfruta de nuestra sede de Bello, sera una experiencia sin igual</p>
                     </div>
                     <img src="./IMG/tiendaLicores2.jpg"></img>
                 </nav>
-                <b><em>Nueva Sede </em></b>
-                <nav className="itagui">
+                <i>Nueva Sede</i>
+                <nav className="itagui" id="itagui">
                     <div>
                         <h1>Sede Itagui</h1>
-                        <p>nakcnwoidndcowndowhedqeiwdhqwoenbio</p>
+                        <p>Disfruta de nuestra nueva sede ubicada en itagui, cerca de la estaciòn del metro</p>
                     </div>
                     <img src="./IMG/tiendaLicores3.jpg"></img>
                 </nav>

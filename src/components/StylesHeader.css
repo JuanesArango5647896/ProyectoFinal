@@ -7,9 +7,11 @@
     box-shadow: -10px 10px 5px black;
     text-align: center;
 }
+
 .logoheader{
     margin-left: 150px;
 }
+
 .menu{
     list-style: none;
     display: flex;
@@ -17,15 +19,18 @@
     justify-content: space-evenly;
     margin: auto;
 }
+
 .menu > li > a{
     display: block;
     color: white;
     text-decoration: none;
 }
+
 .menu > li > a:hover{
     background-color: red;
     margin-left: -20px;
 }
+
 .menuHorin{
     position: absolute;
     display: none;
@@ -33,13 +38,16 @@
     width: 120px;
     background-color: black;
 }
+
 .menu li:hover .menuHorin{
     display: block;
 }
+
 .menuHorin > li:hover{
     background-color: red;
     margin-left: -25px;
 }
+
 .menu > li > a{
     display: block;
     color: white;
@@ -50,9 +58,11 @@
     text-decoration: none;
     color: white;
 }
+
 .menu > li > ul > li{
     margin: 7px;
 }
+
 .espacioMenu{
     width: auto;
     height: 15px;

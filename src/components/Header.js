@@ -1,4 +1,5 @@
 import React from 'react';
+import Body from './Body.js';
 import './StylesHeader.css';
 
 const Header = () => {
@@ -22,20 +23,15 @@ const Header = () => {
                     <li>
                         <a href="#">Sedes</a>
                         <ul class="menuHorin">
-                            <li><a href="#">Medellin</a></li>
-                            <li><a href="#">Itagui</a></li>
-                            <li><a href="#">Bello</a></li>
+                            <li><a href="#medellin">Medellin</a></li>
+                            <li><a href="#itagui">Itagui</a></li>
+                            <li><a href="#bello">Bello</a></li>
                         </ul>
                     </li>
                     <li><a href="#">Promociones</a></li>
                     <li><a href="#">Cocteles</a></li>
                     <li>
-                        <a href="#">Contacto y redes</a>
-                        <ul class="menuHorin">
-                            <li><a href="#">WhastApp</a></li>
-                            <li><a href="#">Facebook</a></li>
-                            <li><a href="#">Instagram</a></li>
-                        </ul>
+                        <a href="#redes-sociales">Contacto y redes</a>
                     </li>
                 </ul>
             </nav>
