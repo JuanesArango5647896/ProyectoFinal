@@ -47,7 +47,7 @@
 }
 
 .sedes{
-    padding: 200px;
+    padding: 130px;
     text-align: center;
 
 }
@@ -99,21 +99,101 @@
     height: 250px;
 }
 
-.sedes > i{
+.sedes > b > .nueva{
     font-size: 20px;
-    margin-left: -600px;
     position: relative;
     top: 100px;
+    left: -350px;
     font-size: 30px;
     color: #F39C12;  
 }
 
-.conNosotros{
+b > .conNosotros{
     position: relative;
-    left: 800px;
+    left: 450px;
+    top: 60px;
+    font-size: 30px;
+    color: #F39C12;
 }
 
-.disfruta{
+b > .disfruta{
     position: relative;
-    left: -150px;
+    left: -480px;
+    top: 100px;
+    font-size: 30px;
+    color: #F39C12;
+}
+b > .principal{
+    position: relative;
+    left: 380px;
+    top: 50px;
+    font-size: 30px;
+    color: #F39C12;
+}
+
+.opcionesLicores{
+    background-color: #EBEDEF;
+}
+
+.opcionesLicores > .guaro,
+.opcionesLicores > .ron,
+.opcionesLicores > .tequila{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding: 100px;
+}
+.opcionesLicores > .ron,
+.opcionesLicores > .tequila{
+    border-top: 10px double black;
+}
+.opcionesLicores > .guaro > nav > img,
+.opcionesLicores > .ron > nav > img,
+.opcionesLicores > .tequila > nav > img{
+    width: 300px;
+    height: 300px;
+    margin-left: 40px;
+    box-shadow: 5px 5px 5px 5px grey;
+}
+.opcionesLicores > .guaro > nav > h1,
+.opcionesLicores > .ron > nav > h1,
+.opcionesLicores > .tequila > nav > h1{
+    position: relative;
+    top: 100px;
+    left: -40px;
+    font-size: 20px;
+    color: red;
+    padding: 5px;
+    background-color: black;
+    text-shadow: 1px 1px 1px white;
+}
+.opcionesLicores > .ron > .ronCaldas{
+    margin-left: 80px;
+}
+.opcionesLicores > .tequila > .joseCuervo{
+    margin-left: 50px;
+}
+.guaroAzul > h2,
+.guaroRojo > h2,
+.guaroVerde > h2,
+.ronCaldas > h2,
+.ronMedellin > h2,
+.ronDictador > h2,
+.joseCuervo > h2,
+.donJulio > h2,
+.tequila1800 > h2 {
+    margin-left: 130px;
+    margin-top: 50px;
+}
+.guaroAzul > p,
+.guaroRojo > p,
+.guaroVerde > p,
+.ronCaldas > p,
+.ronMedellin > p,
+.ronDictador > p,
+.joseCuervo > p,
+.donJulio > p,
+.tequila1800 > p{
+    margin-left: 110px;
+    margin-top: 10px;
 }

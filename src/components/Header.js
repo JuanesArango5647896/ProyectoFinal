@@ -13,8 +13,8 @@ const Header = () => {
                         <a href="#">Licores</a>
                         <ul className="menuHorin">
                             <li><a href="#guaro">Aguardiente</a></li>
-                            <li><a href="#Ron">Ron</a></li>
-                            <li><a href="#">Tequila</a></li>
+                            <li><a href="#ron">Ron</a></li>
+                            <li><a href="#tequila">Tequila</a></li>
                             <li><a href="#">Vodka</a></li>
                             <li><a href="#">Wizky</a></li>
                             <li><a href="#">Vino</a></li>
