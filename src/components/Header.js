@@ -15,9 +15,9 @@ const Header = () => {
                             <li><a href="#guaro">Aguardiente</a></li>
                             <li><a href="#ron">Ron</a></li>
                             <li><a href="#tequila">Tequila</a></li>
-                            <li><a href="#">Vodka</a></li>
-                            <li><a href="#">Wizky</a></li>
-                            <li><a href="#">Vino</a></li>
+                            <li><a href="#vodka">Vodka</a></li>
+                            <li><a href="#whisky">Whizky</a></li>
+                            <li><a href="#vino">Vino</a></li>
                         </ul>
                     </li>
                     <li>

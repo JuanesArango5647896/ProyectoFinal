@@ -137,27 +137,42 @@ b > .principal{
 
 .opcionesLicores > .guaro,
 .opcionesLicores > .ron,
-.opcionesLicores > .tequila{
+.opcionesLicores > .tequila,
+.opcionesLicores > .vodka,
+.opcionesLicores > .whisky,
+.opcionesLicores > .vino{
     display: flex;
     flex-direction: row;
     position: relative;
     padding: 100px;
 }
+
 .opcionesLicores > .ron,
-.opcionesLicores > .tequila{
+.opcionesLicores > .tequila,
+.opcionesLicores > .vodka,
+.opcionesLicores > .whisky,
+.opcionesLicores > .vino{
     border-top: 10px double black;
 }
+
 .opcionesLicores > .guaro > nav > img,
 .opcionesLicores > .ron > nav > img,
-.opcionesLicores > .tequila > nav > img{
+.opcionesLicores > .tequila > nav > img,
+.opcionesLicores > .vodka > nav > img,
+.opcionesLicores > .whisky > nav > img,
+.opcionesLicores > .vino > nav > img{
     width: 300px;
     height: 300px;
     margin-left: 40px;
     box-shadow: 5px 5px 5px 5px grey;
 }
+
 .opcionesLicores > .guaro > nav > h1,
 .opcionesLicores > .ron > nav > h1,
-.opcionesLicores > .tequila > nav > h1{
+.opcionesLicores > .tequila > nav > h1,
+.opcionesLicores > .vodka > nav > h1,
+.opcionesLicores > .whisky > nav > h1,
+.opcionesLicores > .vino > nav > h1{
     position: relative;
     top: 100px;
     left: -40px;
@@ -167,12 +182,27 @@ b > .principal{
     background-color: black;
     text-shadow: 1px 1px 1px white;
 }
+
 .opcionesLicores > .ron > .ronCaldas{
     margin-left: 80px;
 }
+
 .opcionesLicores > .tequila > .joseCuervo{
     margin-left: 50px;
 }
+
+.opcionesLicores > .vodka > .absolut{
+    margin-left: 50px;
+}
+
+.opcionesLicores > .whisky > .buchanans{
+    margin-left: 50px;
+}
+
+.opcionesLicores > .vino > .mardefrades{
+    margin-left: 50px;
+}
+
 .guaroAzul > h2,
 .guaroRojo > h2,
 .guaroVerde > h2,
@@ -181,10 +211,20 @@ b > .principal{
 .ronDictador > h2,
 .joseCuervo > h2,
 .donJulio > h2,
-.tequila1800 > h2 {
-    margin-left: 130px;
+.tequila1800 > h2,
+.absolut > h2,
+.molotoff > h2,
+.vodkahead > h2, 
+.buchanans > h2,
+.oldparr > h2,
+.blacklabel > h2,
+.mardefrades > h2,
+.emilio > h2,
+.rivarose > h2{
+    margin-left: 100px;
     margin-top: 50px;
 }
+
 .guaroAzul > p,
 .guaroRojo > p,
 .guaroVerde > p,
@@ -193,7 +233,16 @@ b > .principal{
 .ronDictador > p,
 .joseCuervo > p,
 .donJulio > p,
-.tequila1800 > p{
+.tequila1800 > p,
+.absolut > p,
+.molotoff > p,
+.vodkahead > p,
+.buchanans > p,
+.oldparr > p,
+.blacklabel > p,
+.mardefrades > p,
+.emilio > p,
+.rivarose > p{
     margin-left: 110px;
     margin-top: 10px;
 }

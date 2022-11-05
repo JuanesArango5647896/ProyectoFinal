@@ -19,7 +19,7 @@ const Body = () => {
                 <nav className="medellin" id="medellin">
                     <div>
                         <h1>Sede Medellin</h1>
-                        <p>Disfruta de nuestra sede principal ubicada de la ciudad de Medellin</p>
+                        <p>Disfruta de nuestra sede principal ubicada en la ciudad de Medellin</p>
                     </div>
                     <img src="./IMG/tiendaLicores.jpg"></img>
                 </nav>
@@ -29,7 +29,7 @@ const Body = () => {
                 <nav className="bello" id="bello">
                     <div>
                         <h1>Sede Bello</h1>
-                        <p>Disfruta de nuestra sede de Bello, sera una experiencia sin igual</p>
+                        <p>Disfruta de nuestra sede de Bello, sera una experiencia incomparable</p>
                     </div>
                     <img src="./IMG/tiendaLicores2.jpg"></img>
                 </nav>
@@ -37,7 +37,7 @@ const Body = () => {
                 <nav className="itagui" id="itagui">
                     <div>
                         <h1>Sede Itagui</h1>
-                        <p>Disfruta de nuestra nueva sede ubicada en itagui, cerca de la estaciòn del metro</p>
+                        <p>Disfruta de nuestra nueva sede ubicada en itagui, cerca a la estaciòn del metro</p>
                     </div>
                     <img src="./IMG/tiendaLicores3.jpg"></img>
                 </nav>
@@ -113,7 +113,7 @@ const Body = () => {
                     <nav className="tiposTequila"><h1>Tequila: </h1></nav>
                     <nav className="joseCuervo">
                         <img src="./IMG/joseCuervo.jpg"></img>
-                        <h2>Jose Cuervo</h2>
+                        <h2>Tequila Jose Cuervo</h2>
                         <p>375ml : 44.900
                             <br></br>
                             750ml : 76.500
@@ -123,13 +123,70 @@ const Body = () => {
                     </nav>
                     <nav className="donJulio">
                         <img src="./IMG/donJulio.jpg"></img>
-                        <h2>Don julio</h2>
+                        <h2>Tequila Don julio</h2>
                         <p>700ml: 355.000 </p>
                     </nav>
                     <nav className="tequila1800">
                         <img src="./IMG/1800.jpg"></img>
                         <h2>Tequila 1800</h2>
                         <p>750ml: 198.000</p>
+                    </nav>
+                </section>
+                <section className="vodka" id="vodka">
+                    <nav className="tiposVodka"><h1>Vodka: </h1></nav>
+                    <nav className="absolut">
+                        <img src="./IMG/absolut.jpg"></img>
+                        <h2>Vodka Absolut</h2>
+                        <p>700ml : 79.990
+                        </p>
+                    </nav>
+                    <nav className="molotoff">
+                        <img src="./IMG/molotoff.jpg"></img>
+                        <h2>Vodka Sasha Molotoff</h2>
+                        <p>1000ml: 269.000 </p>
+                    </nav>
+                    <nav className="vodkahead">
+                        <img src="./IMG/head.jpg"></img>
+                        <h2>Vodka Crystal Head</h2>
+                        <p>700ml: 300.000</p>
+                    </nav>
+                </section>
+                <section className="whisky" id="whisky">
+                    <nav className="tiposWhisky"><h1>Whisky: </h1></nav>
+                    <nav className="buchanans">
+                        <img src="./IMG/buchanans.jpg"></img>
+                        <h2>Whisky Buchanan's Deluxe</h2>
+                        <p>750ml : 154.000
+                        </p>
+                    </nav>
+                    <nav className="oldparr">
+                        <img src="./IMG/oldparr.jpg"></img>
+                        <h2>Whisky Old Parr</h2>
+                        <p>750ml: 140.000 </p>
+                    </nav>
+                    <nav className="blacklabel">
+                        <img src="./IMG/label.jpg"></img>
+                        <h2>Whisky Black Label</h2>
+                        <p>700ml: 137.500</p>
+                    </nav>
+                </section>
+                <section className="vino" id="vino">
+                    <nav className="tiposVino"><h1>Vino: </h1></nav>
+                    <nav className="mardefrades">
+                        <img src="./IMG/mardefrades.jpg"></img>
+                        <h2>Vino Blanco Mar De Frades Albariño</h2>
+                        <p>750ml : 109.900
+                        </p>
+                    </nav>
+                    <nav className="emilio">
+                        <img src="./IMG/emilio.jpg"></img>
+                        <h2>Vino Tinto Emilio Moro Malleolus Tempranillo</h2>
+                        <p>750ml: 280.900 </p>
+                    </nav>
+                    <nav className="rivarose">
+                        <img src="./IMG/rivarose.jpg"></img>
+                        <h2>Vino Espumoso Rivarose Rosado Brut</h2>
+                        <p>750ml: 93.900</p>
                     </nav>
                 </section>
             </section>
