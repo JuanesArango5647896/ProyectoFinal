@@ -190,6 +190,45 @@ const Body = () => {
                     </nav>
                 </section>
             </section>
+            <section className="opcionescocteles" id="opcionescocteles">
+                <nav className="cocteles1">
+                    <nav className="tiposCocteles"><h1>Cocteles: </h1></nav>
+                    <nav className="longcoctel">
+                        <img src="./IMG/longcoctel.jpg"></img>
+                        <h2>Long Island Iced Tea Coctel</h2>
+                        <p>20.000$
+                        </p>
+                    </nav>
+                    <nav className="margarita">
+                        <img src="./IMG/margarita.jpg"></img>
+                        <h2>Margarita Coctel</h2>
+                        <p>18.000$ </p>
+                    </nav>
+                    <nav className="mimosa">
+                        <img src="./IMG/mimosa.jpg"></img>
+                        <h2>Mimosa Coctel</h2>
+                        <p>20.000$</p>
+                    </nav>
+                </nav>
+                <nav className="cocteles2">
+                    <nav className="bloody">
+                        <img src="./IMG/bloody.jpg"></img>
+                        <h2>Bloody Mary Coctel</h2>
+                        <p>22.000$
+                        </p>
+                    </nav>
+                    <nav className="mojito">
+                        <img src="./IMG/mojito.jpg"></img>
+                        <h2>Mojito Coctel</h2>
+                        <p>17.000$ </p>
+                    </nav>
+                    <nav className="cosmopolitan">
+                        <img src="./IMG/cosmopolitan.jpg"></img>
+                        <h2>Cosmopolitan Coctel</h2>
+                        <p>20.000$</p>
+                    </nav>
+                </nav>
+            </section>
         </section>
     )
 }

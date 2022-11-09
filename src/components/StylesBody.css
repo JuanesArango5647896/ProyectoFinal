@@ -140,7 +140,9 @@ b > .principal{
 .opcionesLicores > .tequila,
 .opcionesLicores > .vodka,
 .opcionesLicores > .whisky,
-.opcionesLicores > .vino{
+.opcionesLicores > .vino,
+.opcionescocteles > .cocteles1,
+.opcionescocteles > .cocteles2 {
     display: flex;
     flex-direction: row;
     position: relative;
@@ -160,7 +162,9 @@ b > .principal{
 .opcionesLicores > .tequila > nav > img,
 .opcionesLicores > .vodka > nav > img,
 .opcionesLicores > .whisky > nav > img,
-.opcionesLicores > .vino > nav > img{
+.opcionesLicores > .vino > nav > img,
+.opcionescocteles > .cocteles1 > nav > img,
+.opcionescocteles > .cocteles2 > nav > img{
     width: 300px;
     height: 300px;
     margin-left: 40px;
@@ -172,7 +176,9 @@ b > .principal{
 .opcionesLicores > .tequila > nav > h1,
 .opcionesLicores > .vodka > nav > h1,
 .opcionesLicores > .whisky > nav > h1,
-.opcionesLicores > .vino > nav > h1{
+.opcionesLicores > .vino > nav > h1,
+.opcionescocteles > .cocteles1 > nav > h1,
+.opcionescocteles > .cocteles2 > nav > h1{
     position: relative;
     top: 100px;
     left: -40px;
@@ -203,6 +209,19 @@ b > .principal{
     margin-left: 50px;
 }
 
+.opcionescocteles > .cocteles1 > .longcoctel{
+    margin-left: 50px;
+}
+
+.opcionescocteles > .cocteles2 > .bloody{
+    margin-left: 150px;
+}
+
+.opcionescocteles > .cocteles2{
+    position: relative;
+    top: -180px;
+}
+
 .guaroAzul > h2,
 .guaroRojo > h2,
 .guaroVerde > h2,
@@ -220,7 +239,13 @@ b > .principal{
 .blacklabel > h2,
 .mardefrades > h2,
 .emilio > h2,
-.rivarose > h2{
+.rivarose > h2,
+.longcoctel > h2,
+.margarita > h2,
+.mimosa > h2,
+.bloody > h2,
+.mojito > h2,
+.cosmopolitan > h2{
     margin-left: 100px;
     margin-top: 50px;
 }
@@ -242,7 +267,13 @@ b > .principal{
 .blacklabel > p,
 .mardefrades > p,
 .emilio > p,
-.rivarose > p{
+.rivarose > p,
+.longcoctel > p,
+.margarita > p,
+.mimosa > p,
+.bloody > p,
+.mojito > p,
+.cosmopolitan > p{
     margin-left: 110px;
     margin-top: 10px;
 }

@@ -10,6 +10,14 @@ const Header = () => {
                 <ul class="menu">
                     <li><a href="#">Inicio</a></li>
                     <li>
+                        <a href="#">Sedes</a>
+                        <ul class="menuHorin">
+                            <li><a href="#medellin">Medellin</a></li>
+                            <li><a href="#itagui">Itagui</a></li>
+                            <li><a href="#bello">Bello</a></li>
+                        </ul>
+                    </li>
+                    <li>
                         <a href="#">Licores</a>
                         <ul className="menuHorin">
                             <li><a href="#guaro">Aguardiente</a></li>
@@ -20,16 +28,8 @@ const Header = () => {
                             <li><a href="#vino">Vino</a></li>
                         </ul>
                     </li>
-                    <li>
-                        <a href="#">Sedes</a>
-                        <ul class="menuHorin">
-                            <li><a href="#medellin">Medellin</a></li>
-                            <li><a href="#itagui">Itagui</a></li>
-                            <li><a href="#bello">Bello</a></li>
-                        </ul>
-                    </li>
+                    <li><a href="#opcionescocteles">Cocteles</a></li>
                     <li><a href="#">Promociones</a></li>
-                    <li><a href="#">Cocteles</a></li>
                     <li>
                         <a href="#redes-sociales">Contacto y redes</a>
                     </li>
