@@ -13,8 +13,8 @@ const Header = () => {
                         <a href="#">Sedes</a>
                         <ul class="menuHorin">
                             <li><a href="#medellin">Medellin</a></li>
-                            <li><a href="#itagui">Itagui</a></li>
                             <li><a href="#bello">Bello</a></li>
+                            <li><a href="#itagui">Itagui</a></li>
                         </ul>
                     </li>
                     <li>
@@ -29,7 +29,6 @@ const Header = () => {
                         </ul>
                     </li>
                     <li><a href="#opcionescocteles">Cocteles</a></li>
-                    <li><a href="#">Promociones</a></li>
                     <li>
                         <a href="#redes-sociales">Contacto y redes</a>
                     </li>
